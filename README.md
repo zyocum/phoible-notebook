@@ -16,7 +16,7 @@ $ source phoible-notebook/bin/activate
 (phoible-notebook) $ pip3 install -r requirements.txt
 ```
 
-## Run the iPython Notebook
+## Run the Jupyter Notebook
 
 Still in the same directory:
 
@@ -25,4 +25,4 @@ $ jupyter notebook
 ...
 ```
 
-This should start the server on `localhost:8888` open your browser.  In your browser, open the `notebook.ipynb` and you should be good to go!
+This should start the server on `localhost:8888` and open your browser.  In your browser, choose the `notebook.ipynb` and you should be good to go!
