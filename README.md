@@ -1,2 +1,28 @@
-# phoible-notebook
-Exploratory notebook for inspecting the PHOIBLE data set.
+# PHOIBLE
+
+An exploratory notebook to inspect the PHOIBLE dataset.
+
+PHOIBLE project page: https://phoible.org/  
+PHOIBLE data on GitHub: https://github.com/phoible/dev/tree/master/data
+
+## Install Dependencies
+
+Use Python 3.9+ in the same directory as this README.md:
+
+```
+$ python3 -m venv phoible-notebook
+$ source phoible-notebook/bin/activate
+...
+(phoible-notebook) $ pip3 install -r requirements.txt
+```
+
+## Run the iPython Notebook
+
+Still in the same directory:
+
+```
+$ jupyter notebook
+...
+```
+
+This should start the server on `localhost:8888` open your browser.  In your browser, open the `notebook.ipynb` and you should be good to go!
